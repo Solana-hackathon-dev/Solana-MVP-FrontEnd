@@ -82,7 +82,7 @@ const VaultDetail: React.FC = () => {
                             amount: parseFloat(e.target.value),
                           })
                         }
-                        className="border border-gray-300 rounded-md p-2 flex-grow"
+                        className="border border-gray-300 rounded-md p-2 flex-grow text-right"
                         placeholder="0.0"
                       />
                       <span className=" bg-slate-300 rounded-lg py-3 px-2">
@@ -112,7 +112,7 @@ const VaultDetail: React.FC = () => {
                             amount: parseFloat(e.target.value),
                           })
                         }
-                        className="border border-gray-300 rounded-md p-2 flex-grow"
+                        className="border border-gray-300 rounded-md p-2 flex-grow text-right"
                         placeholder="0.0"
                       />
                       <span className=" bg-slate-300 rounded-lg py-3 px-2">
